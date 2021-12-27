@@ -1,0 +1,57 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(68, 59, 59);
+
+
+
+}
+
+.box {
+    width: 420px;
+    height: 220px;
+    background-color: rgb(219, 220, 226);
+    display: flex;
+    border-radius: 10px ;
+
+}
+.box:hover {
+    box-shadow: 1px 2px 3px #ccc;
+    cursor: pointer;
+}
+.image-section:hover {
+    box-shadow: 1px 2px 3px rgb(131, 198, 235);
+    cursor: pointer;
+}
+.image-section {
+   margin-top: 23%;
+    border-radius: 50%;
+    max-width: 130px;
+    max-width: 130px;
+
+}
+.right-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.name{
+    font-size: 1.7em;
+    color: seagreen;
+    font-weight: 700;
+    margin-top: -1em;
+}
+.phone{
+    font-size: 1.3em;
+    color: rgb(162, 30, 54);
+}
+.emal{
+    font: 1em sans-serif;
+    color: rgb(47, 28, 169);
+    margin-top: 10px;
+}
